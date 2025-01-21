@@ -4,7 +4,15 @@ import { Navbar } from "@/components/layout/Navbar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-dark via-primary to-primary-light">
+    <div 
+      className="min-h-screen bg-gradient-to-br from-primary-dark via-primary to-primary-light"
+      style={{
+        backgroundImage: `linear-gradient(rgba(11, 77, 79, 0.85), rgba(11, 77, 79, 0.85)), url('/lovable-uploads/4cfe3e7d-572d-418c-8841-2e9a265f7afd.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
+    >
       <Navbar />
       
       {/* Hero Section */}
