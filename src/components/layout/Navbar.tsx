@@ -15,7 +15,7 @@ export const Navbar = () => {
             className="text-2xl font-bold text-glow"
             whileHover={{ scale: 1.05 }}
           >
-            Time To Consume
+            TTC
           </motion.div>
           <div className="hidden md:flex space-x-8">
             <NavLink href="/">Главная</NavLink>
